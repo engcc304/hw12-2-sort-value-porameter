@@ -60,3 +60,47 @@
         99.99 88.88 77.77 66.66
 
 */
+
+#include <stdio.h>
+
+struct Person {
+    char Name[20] ;
+    float Score ;
+};
+
+int main() {
+    struct Person A , B , C , D ;
+
+    // รับข้อมูลของ Person A
+    printf( "Student A\n" ) ;
+    printf( "Name : " ) ;
+    scanf( "%s" , A.Name ) ;
+    printf( "Score : " ) ;
+    scanf( "%f" , &A.Score ) ;
+    
+    printf( "Student A\n" ) ;
+    printf( "Name : " ) ;
+    scanf( "%s" , B.Name ) ;
+    printf( "Score : " ) ;
+    scanf( "%f" , &B.Score ) ;
+
+    printf( "Student A\n" ) ;
+    printf( "Name : " ) ;
+    scanf( "%s" , C.Name ) ;
+    printf( "Score : " ) ;
+    scanf( "%f" , &C.Score ) ;
+
+    printf( "Student A\n" ) ;
+    printf( "Name : " ) ;
+    scanf( "%s" , D.Name ) ;
+    printf( "Score : " ) ;
+    scanf( "%f" , &D.Score ) ;
+
+// รับข้อมูลของ Person B
+    printf( "%s %s %s %s \n " , A.Name , B.Name , C.Name , D.Name ) ;
+    printf( "%0.2f %0.2f %0.2f %0.2f " , A.Score, B.Score , C.Score , D.Score ) ;
+    
+
+    
+    return 0 ;
+}
