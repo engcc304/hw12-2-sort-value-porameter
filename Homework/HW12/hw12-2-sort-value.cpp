@@ -78,19 +78,19 @@ int main() {
     printf( "Score : " ) ;
     scanf( "%f" , &A.Score ) ;
     
-    printf( "Student A\n" ) ;
+    printf( "Student B\n" ) ;
     printf( "Name : " ) ;
     scanf( "%s" , B.Name ) ;
     printf( "Score : " ) ;
     scanf( "%f" , &B.Score ) ;
 
-    printf( "Student A\n" ) ;
+    printf( "Student C\n" ) ;
     printf( "Name : " ) ;
     scanf( "%s" , C.Name ) ;
     printf( "Score : " ) ;
     scanf( "%f" , &C.Score ) ;
 
-    printf( "Student A\n" ) ;
+    printf( "Student D\n" ) ;
     printf( "Name : " ) ;
     scanf( "%s" , D.Name ) ;
     printf( "Score : " ) ;
